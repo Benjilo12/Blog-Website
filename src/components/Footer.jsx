@@ -26,7 +26,7 @@ function Footer() {
                   <li key={i}>
                     <a
                       href="#"
-                      className="hover:underline transition dark:hover:text-emerald-400  text-gray-700 dark:text-gray-400"
+                      className="hover:underline transition dark:hover:text-emerald-400  text-gray-700 dark:text-gray-400 hover:text-blue-600"
                     >
                       {link}
                     </a>

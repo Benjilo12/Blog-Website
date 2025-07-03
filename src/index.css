@@ -13,3 +13,111 @@
 @theme {
   --color-primary: #5044e5;
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+}
+
+.animation-delay-3000 {
+  animation-delay: 3s;
+}
+
+.animation-delay-6000 {
+  animation-delay: 6s;
+}
+.rich-text {
+  font-size: 16px;
+  @apply dark:text-gray-300;
+}
+
+.rich-text p {
+  margin-bottom: 14px;
+  color: #292929;
+  @apply dark:text-gray-400;
+}
+
+.rich-text h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #080303;
+  margin: 24px 0;
+  margin-bottom: 30px;
+  @apply dark:text-gray-300;
+}
+
+.rich-text h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #252525 !important;
+  margin: 24px 0;
+  @apply dark:text-gray-300;
+}
+
+.rich-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #252525 !important;
+  margin: 20px 0;
+  @apply dark:text-gray-300;
+}
+
+.rich-text h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #252525 !important;
+  margin: 16px 0;
+  @apply dark:text-gray-300;
+}
+
+.rich-text h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #252525 !important;
+  margin: 12px 0;
+  @apply dark:text-gray-300;
+}
+
+.rich-text h6 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #252525 !important;
+  margin: 8px 0;
+  @apply dark:text-gray-300;
+}
+
+.rich-text stong {
+  font-weight: 700;
+  @apply dark:text-gray-300;
+}
+
+.rich-text ol {
+  margin-left: 30px;
+  list-style-type: decimal;
+}
+
+.rich-text ul {
+  margin-left: 30px;
+  list-style-type: disc;
+}
+
+.rich-text li {
+  margin-bottom: 8px;
+  @apply dark:text-gray-300;
+}
+
+.rich-text a {
+  color: #007aff;
+  text-decoration: underline;
+}

@@ -25,7 +25,7 @@ function Header() {
         <MarqBlog />
         <div className="text-center mt-16 mb-8 py-12">
           <div className="inline-flex items-center justify-center gap-4 px-6 py-1.5 mb-4 border border-primary/40 bg-primary/10 backdrop-blur-sm rounded-full text-sm text-primary dark:bg-emerald-400/10 dark:border-emerald-400/30">
-            <p className="dark:text-gray-100">
+            <p className="dark:text-gray-100 font-bold">
               Email: benjamindarteyy@gmail.com
             </p>
             <Sparkle className="text-yellow-500 dark:text-yellow-300" />
