@@ -121,3 +121,14 @@
   color: #007aff;
   text-decoration: underline;
 }
+
+.dark .ql-container.ql-snow {
+  border: 1px solid #2a3039 !important;
+  background-color: #656c79 !important;
+  color: #f3f4f6 !important;
+}
+
+.dark .ql-toolbar.ql-snow {
+  border: 1px solid #4f555d !important;
+  background-color: #ebedf0 !important;
+}
